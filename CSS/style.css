@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    
+    background:  #a8dadc;
+}
+
+div{
+    border-radius: 10px;
+    background-color: #f1faee;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+* nav{
+   
+    display: block;
+
+    align-items: center;
+    padding: 0 32px;
+}
+
+* a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    color: #457b9d;
+}
+
+h3{
+    color: #e63946;
+}
+
+th{
+    color: #457b9d;
+}
+
+
+hr{
+    border-width: 8px;
+    background-color: white;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    position: relative;
+}
+
+/*==========================Class=======================================*/
+.body-box{
+    background-color: #a8dadc;
+    padding: 5% 5%;
+    box-shadow: none;
+}
+
+.profile{
+    background-color: #a8dadc;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: none;
+    flex: auto;
+}
+
+.title{ 
+    text-align: center;
+    padding: 10px 10px;
+    box-shadow: none;
+}
+
+.content{
+    margin: auto;
+    width: 53%;
+    padding: 10px; 
+    text-align: center;
+    box-shadow: none;
+    
+}
+
+.workExperience-content{
+        margin: auto;
+        flex: auto;
+        width: 40%;
+        box-shadow: none;
+}
+
+.contact-details{
+    text-align: center;
+    padding: 10px 10px;
+    box-shadow: none;
+}
