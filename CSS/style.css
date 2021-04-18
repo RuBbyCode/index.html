@@ -82,9 +82,11 @@ hr{
     margin: auto;
     width: 53%;
     padding: 10px; 
-    text-align: center;
     box-shadow: none;
     
+}
+.skills{
+    text-align: center;
 }
 
 .workExperience-content{
